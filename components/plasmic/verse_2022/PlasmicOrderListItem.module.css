@@ -1,0 +1,110 @@
+.root {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.orderListItemLine {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  top: auto;
+  left: auto;
+  min-width: 0;
+  padding: 8px;
+}
+.orderListItemLine > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.orderListItemLine > :global(.__wab_flex-container) > *,
+.orderListItemLine > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.orderListItemLine > :global(.__wab_flex-container) > picture > img,
+.orderListItemLine
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.orderListItemNumber {
+  background: linear-gradient(119deg, #29ceff 14%, #d566fc 85%) 0% 0% / 100%
+    100% repeat padding-box /* clip: text **/;
+  display: block;
+  font-size: 16px;
+  font-family: Verse Sans;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 42px;
+  color: transparent;
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 3.65%;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .orderListItemNumber {
+    background: linear-gradient(119deg, #29ceff 14%, #d566fc 85%) 0% 0% / 100%
+      100% repeat padding-box /* clip: text **/;
+    width: auto;
+    display: block;
+    font-size: 16px;
+    font-family: Verse Sans;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 42px;
+    color: transparent;
+    position: relative;
+    top: auto;
+    left: auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+}
+.orderListItemTitle {
+  display: flex;
+  flex-direction: row;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .orderListItemTitle {
+    width: auto;
+  }
+}
+.slotTargetSlot {
+  font-family: Verse Sans;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 42px;
+  letter-spacing: 0em;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetSlot {
+    font-size: 18px;
+  }
+}
+.arrowLight:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  right: auto;
+  flex-shrink: 0;
+}

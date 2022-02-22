@@ -1,0 +1,209 @@
+.root {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  padding: 24px 48px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 0;
+    padding: 12px;
+  }
+}
+.logoArea {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.logoArea > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 56px);
+  width: calc(100% + 56px);
+}
+.logoArea > :global(.__wab_flex-container) > *,
+.logoArea > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.logoArea > :global(.__wab_flex-container) > picture > img,
+.logoArea
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 56px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .logoArea > :global(.__wab_flex-container) {
+    align-items: center;
+    justify-content: center;
+  }
+}
+.logoVerseFull:global(.__wab_instance) {
+  position: relative;
+}
+.craftcms {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  border-radius: 58px;
+  padding: 8px 22px;
+  border: 1px solid #fffaf24d;
+}
+.craftcms > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.craftcms > :global(.__wab_flex-container) > *,
+.craftcms > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.craftcms > :global(.__wab_flex-container) > picture > img,
+.craftcms
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .craftcms {
+    display: none;
+  }
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fffaf2;
+  width: 99px;
+  height: 20px;
+  display: block;
+  flex-shrink: 0;
+}
+.rectangle84 {
+  opacity: 0.4;
+  background: rgba(255, 255, 255, 0.18);
+  width: 2px;
+  height: 19px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 29px;
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 15.917px;
+  height: 15.889px;
+  display: block !important;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.menuItem {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.menuItem > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.menuItem > :global(.__wab_flex-container) > *,
+.menuItem > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.menuItem > :global(.__wab_flex-container) > picture > img,
+.menuItem
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.menuItem2 {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  font-family: Verse Sans;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 18px;
+  color: rgba(255, 249, 241, 1);
+  position: relative;
+}
+.menuArea {
+  flex-direction: row;
+  width: auto;
+  display: flex;
+  position: relative;
+}
+.menuArea > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 64px);
+  width: calc(100% + 64px);
+}
+.menuArea > :global(.__wab_flex-container) > *,
+.menuArea > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.menuArea > :global(.__wab_flex-container) > picture > img,
+.menuArea
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 64px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .menuArea {
+    left: auto;
+    top: auto;
+    display: flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .menuArea > :global(.__wab_flex-container) {
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+.navItem:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .navItem:global(.__wab_instance) {
+    left: auto;
+    top: auto;
+    display: none;
+  }
+}
+.navIconMenu:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}

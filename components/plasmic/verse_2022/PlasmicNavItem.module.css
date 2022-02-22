@@ -1,0 +1,21 @@
+.root {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.label {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: row;
+}
+.slotTargetChildren {
+  font-family: Verse Sans;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(255, 249, 241, 1);
+  text-align: center;
+  line-height: 18px;
+  letter-spacing: 0em;
+}

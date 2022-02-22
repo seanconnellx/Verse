@@ -1,0 +1,9 @@
+.root {
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 31.7px;
+  height: 24.25px;
+  display: block;
+  position: relative;
+}

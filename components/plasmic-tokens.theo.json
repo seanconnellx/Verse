@@ -1,0 +1,159 @@
+{
+  "props": [
+    {
+      "name": "Cream",
+      "type": "color",
+      "value": "#FFFAF2",
+      "category": "color",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "ozvY09qqN"
+      }
+    },
+    {
+      "name": "Dark",
+      "type": "color",
+      "value": "#262B3E",
+      "category": "color",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "jTJN_EzPC"
+      }
+    },
+    {
+      "name": "Dark Blue",
+      "type": "color",
+      "value": "#313453",
+      "category": "color",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "miF_xE-3B"
+      }
+    },
+    {
+      "name": "Error",
+      "type": "color",
+      "value": "#E65086",
+      "category": "color",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "GO2-97K7r"
+      }
+    },
+    {
+      "name": "Success",
+      "type": "color",
+      "value": "#50E68C",
+      "category": "color",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "BOCJZvYf1"
+      }
+    },
+    {
+      "name": "Verse Sans",
+      "type": "fontfamily",
+      "value": "Verse Sans",
+      "category": "fontfamily",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "a-CTISS-m"
+      }
+    },
+    {
+      "name": "White",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "HIDskiH57"
+      }
+    },
+    {
+      "name": "base-grid",
+      "type": "spacing",
+      "value": "4px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "q91pFDoHQ"
+      }
+    },
+    {
+      "name": "fontsize-title",
+      "type": "fontsize",
+      "value": "56px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "y4tA92hRO"
+      }
+    },
+    {
+      "name": "fontsize-title--secondary",
+      "type": "fontsize",
+      "value": "24px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "RgdDu1Hh0"
+      }
+    },
+    {
+      "name": "line-height--sub-title",
+      "type": "lineheight",
+      "value": "42px",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "f3Br1_vOD"
+      }
+    },
+    {
+      "name": "line-height--title",
+      "type": "lineheight",
+      "value": "85px",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "vSXkIvU7Y"
+      }
+    },
+    {
+      "name": "opacity--0.3",
+      "type": "opacity",
+      "value": "0.3",
+      "category": "opacity",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "aFtw5aUI_"
+      }
+    },
+    {
+      "name": "opacity--50",
+      "type": "opacity",
+      "value": "0.5",
+      "category": "opacity",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "H9l7T3VWJ"
+      }
+    },
+    {
+      "name": "opacity--80",
+      "type": "opacity",
+      "value": "0.8",
+      "category": "opacity",
+      "meta": {
+        "projectId": "2zRvKQ8amGcEx1ePi9rEYj",
+        "id": "VGJCnXm7p"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.root {
+  background: linear-gradient(
+      269deg,
+      rgba(11, 221, 250, 1) 36%,
+      rgba(87, 92, 238, 1) 86%,
+      rgba(111, 76, 255, 1) 147%,
+      rgba(222, 32, 243, 1) 195%
+    )
+    0% 0% / 100% 100% no-repeat;
+  height: auto;
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.text {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 0em;
+  line-height: 16px;
+  color: var(--token-ozvY09qqN);
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  min-width: 0;
+  min-height: 0;
+}

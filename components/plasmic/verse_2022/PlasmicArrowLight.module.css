@@ -1,0 +1,33 @@
+.root {
+  width: 32px;
+  height: 32px;
+  display: block;
+  position: relative;
+}
+.img {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 32px;
+  height: 32px;
+  display: block !important;
+  top: 0%;
+  left: 0%;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.svg {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fffaf2;
+  width: 7px;
+  height: 14px;
+  display: block;
+  top: 28.12%;
+  left: 43.75%;
+}
