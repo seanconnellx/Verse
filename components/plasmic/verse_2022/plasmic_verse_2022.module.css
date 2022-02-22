@@ -34,7 +34,7 @@
 }
 
 .plasmic_default_styles {
-  --mixin-MRxQu2wUqd_font-family: "Verse Sans";
+  --mixin-MRxQu2wUqd_font-family: "'Verse Sans', 'DM Sans'. sans-serif;";
   --mixin-MRxQu2wUqd_font-size: 16px;
   --mixin-MRxQu2wUqd_font-weight: 400;
   --mixin-MRxQu2wUqd_font-style: normal;
@@ -47,14 +47,14 @@
   --mixin-MRxQu2wUqd_user-select: text;
   --mixin-MRxQu2wUqd_text-decoration-line: none;
   --mixin-MRxQu2wUqd_text-overflow: clip;
-  --mixin-dk2PA2PCr_font-family: "Verse Sans";
+  --mixin-dk2PA2PCr_font-family: "'Verse Sans', 'DM Sans'. sans-serif;";
   --mixin-dk2PA2PCr_color: #fffaf2;
   --mixin-dk2PA2PCr_font-size: 56px;
   --mixin-dk2PA2PCr_font-weight: 400;
   --mixin-dk2PA2PCr_letter-spacing: -1%;
   --mixin-dk2PA2PCr_line-height: 85px;
   --mixin-N4da-lMkKY_color: #313453;
-  --mixin-N4da-lMkKY_font-family: "Verse Sans";
+  --mixin-N4da-lMkKY_font-family: "'Verse Sans', 'DM Sans'. sans-serif;";
   --mixin-N4da-lMkKY_text-decoration-line: none;
   --mixin-5Z9aiKu73o_background: linear-gradient(#f8f8f8, #f8f8f8);
   --mixin-5Z9aiKu73o_border-bottom-color: #dddddd;

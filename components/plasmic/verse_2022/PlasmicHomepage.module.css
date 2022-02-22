@@ -24,7 +24,7 @@
   margin-top: 0px;
 }
 .stage {
-  background: rgba(37, 42, 61, 1);
+  background: #ff0;
   width: auto;
   height: auto;
   display: flex;
@@ -33,7 +33,6 @@
   justify-content: flex-start;
   padding-bottom: 24px;
   align-self: stretch;
-  filter: blur(0px);
 }
 .sectionMarketingHeadline:global(.__wab_instance) {
   position: relative;
@@ -781,7 +780,7 @@
   flex-direction: column;
   background: linear-gradient(
       121deg,
-      rgba(107, 22, 191, 1) 0%,
+      rgba(12, 222, 251, 1) 0%,
       rgba(18, 15, 124, 1) 98%
     )
     0% 0% / 100% 100% no-repeat;
