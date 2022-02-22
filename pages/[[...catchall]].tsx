@@ -50,7 +50,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     paths: pageModules.map((mod) => ({
       params: {
         catchall: mod.path.substring(1).split("/"),
-      },
+      },  
     })),
 
     // Turn on "fallback: 'blocking'" if you would like new paths created
